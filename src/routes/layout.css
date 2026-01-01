@@ -1,0 +1,41 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+    --font-sans: "Ubuntu", ui-sans-serif, system-ui, sans-serif;
+    --font-title: "Rubik",ui-sans-serif, system-ui, sans-serif;
+    --font-serif: "PT Serif", serif;
+
+    --color-foreground: #fae5f5;
+    --color-background: #FA61B3;
+    --color-pinkple: #EF61FA;
+    --color-bright-orange: #FA6461;
+    --color-purple-shock: #a910eb;
+    --color-salmon: #FA7F61;
+    --color-pale-pink: #FAB5DA;
+
+    --background-image-grad-salmon: linear-gradient(180deg, rgba(250, 97, 179, 1) 0%, rgba(250, 127, 97, 1) 10%, rgba(250, 127, 97, 1) 90%, rgba(250, 97, 179, 1) 100%);
+
+    --shadow-low: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.15);
+    --shadow-high: 0 12px 24px rgba(0, 0, 0, 0.2);
+
+    --animate-wiggle: wiggle 0.5s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+    0%, 100% { transform: rotate(-3deg); }
+    50% { transform: rotate(3deg); }
+}
+
+@layer base {
+    body {
+        @apply bg-background font-sans text-foreground;
+    }
+}
+
