@@ -21,6 +21,8 @@
 
     --background-image-grad-salmon: linear-gradient(180deg, rgba(250, 97, 179, 1) 0%, rgba(250, 127, 97, 1) 10%, rgba(250, 127, 97, 1) 90%, rgba(250, 97, 179, 1) 100%);
 
+    --background-image-grad-purple: linear-gradient(180deg, rgba(250, 97, 179, 1) 0%, rgba(169, 16, 235, 1) 10%, rgba(169, 16, 235, 1) 100%);
+
     --shadow-low: 0 2px 4px rgba(0, 0, 0, 0.1);
     --shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.15);
     --shadow-high: 0 12px 24px rgba(0, 0, 0, 0.2);

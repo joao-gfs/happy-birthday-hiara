@@ -9,7 +9,7 @@
         ["C", "arinhosa", ", tem o melhor cafuné e o melhor abraço do mundo"],
         ["I", "nteligente", ", tem sempre ideias incríveis e consegue aprender tudo que quiser"],
         ["A", "tenciosa", ", sempre percebe os detalhes em tudo e nas pessoas"],
-        ["L", "inda", ", a mulher mais bonita, seja arrumada ou logo depois de acordar, é um deleite para os olhos"]
+        ["L", "inda", ", seja arrumada ou logo depois de acordar, é um deleite para os olhos"]
     ]
 </script>
 

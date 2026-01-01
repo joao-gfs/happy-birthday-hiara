@@ -1,12 +1,12 @@
 <script lang="ts">
+    import { base } from '$app/paths';
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
 
 	let { children } = $props();
 </script>
 
 <svelte:head>
-    <link rel="icon" href={favicon} />
+    <link rel="icon" href={`${base}/images/favicon.ico`} />
     <title>Feliz aniversário!</title>
 </svelte:head>
 <div>
