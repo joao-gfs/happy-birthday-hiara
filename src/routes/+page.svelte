@@ -2,19 +2,20 @@
     import Carousel from '$lib/components/Carousel.svelte';
     import CardSpecial from '$lib/components/CardSpecial.svelte';
     import GiftBox from '$lib/GiftBox.svelte';
+    import { base } from '$app/paths';
 
-    let kuromi_base = "/images/kuromi.webp";
-    let kuromi_hover = "/images/kuromi-2.webp";
+    let kuromi_base = `${base}/images/kuromi.webp`;
+    let kuromi_hover = `${base}/images/kuromi-2.webp`;
 
-    let hello_kitty_base = "/images/hello-kitty.webp";
-    let hello_kitty_hover = "/images/hello-kitty-2.webp";
+    let hello_kitty_base = `${base}/images/hello-kitty.webp`;
+    let hello_kitty_hover = `${base}/images/hello-kitty-2.webp`;
 
     let isKuromiHovered = false;
     let isHelloHovered = false;
 </script>
 
 <main>
-    <audio src="/Harry Styles - Adore You.mp3">
+    <audio src="{base}/harry-styles-adore-you.mp3">
         Ops, deu ruim. Vai cantando Adore You do Harry na sua cabeça
     </audio>
 

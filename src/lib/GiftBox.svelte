@@ -1,6 +1,7 @@
 <script>
     import { fade, fly } from 'svelte/transition';
     import { spring } from 'svelte/motion';
+    import { base } from '$app/paths';
 
     let isOpen = false;
 
@@ -21,7 +22,7 @@
             <div class="ribbon-vertical"></div>
         </div>
         <img 
-            src="/images/hiara/hiara-fundo-transparente-2.png" 
+            src="{base}/images/hiara/hiara-fundo-transparente-2.png" 
             alt="Hiara Surprise" 
             class="surprise-image {isOpen ? 'visible' : ''}"
         />

@@ -1,22 +1,23 @@
 <script lang="ts">
+    import { base } from '$app/paths';
     // All images from the hiara folder
     const images = [
-        '/images/hiara/hiara-2019.jpg',
-        '/images/hiara/hiara-aparecida.jpg',
-        '/images/hiara/hiara-bugados.jpg',
-        '/images/hiara/hiara-coda.jpg',
-        '/images/hiara/hiara-comeco.jpg',
-        '/images/hiara/hiara-corsa.jpg',
-        '/images/hiara/hiara-festa.jpg',
-        '/images/hiara/hiara-formatura.jpg',
-        '/images/hiara/hiara-garden.jpg',
-        '/images/hiara/hiara-hacktown.jpg',
-        '/images/hiara/hiara-ht.jpg',
-        '/images/hiara/hiara-luzes.jpg',
-        '/images/hiara/hiara-mox.jpg',
-        '/images/hiara/hiara-natal.jpg',
-        '/images/hiara/hiara-niver-mari.jpg',
-        '/images/hiara/hiara-praia.jpg',
+        `${base}/images/hiara/hiara-2019.jpg`,
+        `${base}/images/hiara/hiara-aparecida.jpg`,
+        `${base}/images/hiara/hiara-bugados.jpg`,
+        `${base}/images/hiara/hiara-coda.jpg`,
+        `${base}/images/hiara/hiara-comeco.jpg`,
+        `${base}/images/hiara/hiara-corsa.jpg`,
+        `${base}/images/hiara/hiara-festa.jpg`,
+        `${base}/images/hiara/hiara-formatura.jpg`,
+        `${base}/images/hiara/hiara-garden.jpg`,
+        `${base}/images/hiara/hiara-hacktown.jpg`,
+        `${base}/images/hiara/hiara-ht.jpg`,
+        `${base}/images/hiara/hiara-luzes.jpg`,
+        `${base}/images/hiara/hiara-mox.jpg`,
+        `${base}/images/hiara/hiara-natal.jpg`,
+        `${base}/images/hiara/hiara-niver-mari.jpg`,
+        `${base}/images/hiara/hiara-praia.jpg`,
     ];
 
     // Split images into 3 rows
