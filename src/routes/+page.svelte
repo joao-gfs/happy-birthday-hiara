@@ -110,7 +110,7 @@
             <p>Feliz dia 2, o seu dia!</p>
         </div>
         <div
-            class="w-1/2 h-[500px] relative rounded-2xl overflow-hidden"
+            class="w-1/2 h-[500px] max-w-[500px] relative rounded-2xl overflow-hidden"
         >
             {#key currentImageIndex}
                 <img
